@@ -1,15 +1,42 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rj_PRIME</title>
-    <script>
-			window.location.replace("https://rentry.co/rjprime/raw/");
-	</script>
-</head>
-<body>
-#EXTM3U
+<DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <title>TG @HarmanIPTV</title>
+    <script type="text/javascript">
+        alert("Use in IPTV Player Only!")
+      window.location = "https://t.me/HarmanIPTV"
+    </script>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <style>
+      body {
+        color: #ffffff;
+        background-color: #000000;
+      }
+
+      #main {
+        height: 100vh;
+      }
+
+      .hide {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="d-flex justify-content-center align-items-center" id="main">
+      <h1 class="mr-3 pr-3 align-top border-right inline-block align-content-center">Excess Forbidden</h1>
+      <div class="inline-block align-middle">
+        <h2 class="font-weight-normal lead" id="desc">Use in IPTV Player Only!</h2>
+      </div>
+    </div>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <container id="my-app-container"></container>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <div id="gtx-trans" style="position: absolute; left: 714px; top: 233.28px;">
+      <div class="gtx-trans-icon"></div>
+    </div>
+   <div class="hide">
+
 
 <!-- #EXTM3U x-tvg-url="https://tsepg.cf/epg.xml.gz" -->
 #EXTM3U x-tvg-url="https://avkb.short.gy/tsepg.xml.gz"
@@ -24,33 +51,47 @@ https://dai.google.com/ssai/event/HgaB-u6rSpGx3mo4Xu3sLw/master.m3u8
 #EXTINF:-1 tvg-id="1000009248" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY%20SAB%20HD_WHITE.png" group-title="Entertainment", Sony SAB HD
 https://dai.google.com/ssai/event/UI4QFJ_uRk6aLxIcADqa_A/master.m3u8
 
+#EXTINF:-1 tvg-id="ts559" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/SONY-SAB-Transparent.png" group-title="Entertainment",SONY SAB
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://tp.drmlive-01.workers.dev?id=559
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+http://192.168.1.128:8000/tataplay-main/manifest.mpd?id=559|X-Forwarded-For=59.178.74.184&Origin=https://watch.tataplay.com&Referer=https://watch.tataplay.com/
+
 #EXTINF:-1 tvg-id="1000009273" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY%20PAL.png" group-title="Entertainment", Sony PAL
 https://dai.google.com/ssai/event/rPzF28qORbKZkhci_04fdQ/master.m3u8
 
+#EXTINF:-1 tvg-id="ts578" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/&tv.png" group-title="Entertainment",&TV
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://m3u.yuvraj49.xyz/tp/KxYS5P0mqdXY/license/key?id=578
-#EXTINF:-1 tvg-id="ts578" tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-12129-j9p7kluo-v2/imageContent-12129-j9p7kluo-m3.png" group-title="Entertainment",&TV
-#EXTVLCOPT:http-user-agent=Safari/537.36
-https://m3u.yuvraj49.xyz/tp/KxYS5P0mqdXY/manifest/578.mpd|User-Agent=Safari/537.36
+#KODIPROP:inputstream.adaptive.license_key=https://tp.drmlive-01.workers.dev?id=578
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+http://192.168.1.128:8000/tataplay-main/manifest.mpd?id=578|X-Forwarded-For=59.178.74.184&Origin=https://watch.tataplay.com&Referer=https://watch.tataplay.com/
 
-#EXTINF:-1 tvg-id=2024 tvg-name="And TV" tvg-logo="http://localhost:5001/jtvimage/And_TV.png" tvg-language="Hindi" tvg-type="Entertainment" group-title="Entertainment", & TV
-https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andtv1/default/andtv1.m3u8
+#EXTINF:-1 tvg-id="ts8" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/STAR Plus HD.png" group-title="Entertainment",STAR Plus HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://tp.drmlive-01.workers.dev?id=8
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+http:///tataplay-main/manifest.mpd?id=8|X-Forwarded-For=59.178.74.184&Origin=https://watch.tataplay.com&Referer=https://watch.tataplay.com/
 
-#EXTINF:-1 tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-11073-j95e7nyo-v1/imageContent-11073-j95e7nyo-m1.png" group-title="Entertainment",Zee TV HD
-http://119.152.240.15:8001/play/a0gz/index.m3u8
+#EXTINF:-1 tvg-id="ts63" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Zee TV HD.png" group-title="Entertainment",Zee TV HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://tp.drmlive-01.workers.dev?id=63
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+http://192.168.1.128:8000/tataplay-main/manifest.mpd?id=63|X-Forwarded-For=59.178.74.184&Origin=https://watch.tataplay.com&Referer=https://watch.tataplay.com/
 
-#EXTINF:-1 tvg-id=1351 tvg-name="Zee TV" tvg-logo="http://localhost:5001/jtvimage/Zee_TV.png" tvg-language="Hindi" tvg-type="Entertainment" group-title="Entertainment", Zee TV
-https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeetv1/default/zeetv1.m3u8
-	
+#EXTINF:-1 tvg-id="ts557" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Zee TV.png" group-title="Entertainment",Zee TV
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://tp.drmlive-01.workers.dev?id=557
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+http://192.168.1.128:8000/tataplay-main/manifest.mpd?id=557|X-Forwarded-For=59.178.74.184&Origin=https://watch.tataplay.com&Referer=https://watch.tataplay.com/
+  
 #EXTINF:-1 tvg-id=1368 tvg-name="Colors SD" tvg-logo="http://localhost:5001/jtvimage/Colors_SD.png" tvg-language="Hindi" tvg-type="Entertainment" group-title="Entertainment", Colors
 http://localhost:5001/live/1368.m3u8
 
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://tsdevil.fun/Devil/tplay-api/live-key.php?id=8
-#EXTINF:-1 tvg-id="ts8" tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-25307-jhrhflww-v1/imageContent-25307-jhrhflww-m1.png" tvg-country="IN" catchup-type="append" catchup-days="7" catchup-source="&utc={utc}&lutc={utcend}" group-title="Entertainment",STAR Plus HD
-#EXTVLCOPT:http-user-agent=DevilBhai/5.0 AppleWebKit/534.46.0
-https://tsdevil.fun/Devil/tplay-api/live-mpd.php?id=8
-	
 #EXTINF:-1 tvg-id=566 tvg-name="Animal Planet Hindi" tvg-logo="http://localhost:5001/jtvimage/Animal_Planet_Hindi.png" tvg-language="Hindi" tvg-type="Infotainment" group-title="Infotainment", Animal Planet
 http://localhost:5001/live/566.m3u8
 
@@ -60,10 +101,10 @@ http://localhost:5001/live/661.m3u8
 
 #EXTINF:-1 tvg-id=693 tvg-name="News18 BIHAR" tvg-logo="http://localhost:5001/jtvimage/ETV_BIHAR.png" tvg-language="Bhojpuri" tvg-type="News" group-title="News", News18 BIHAR
 http://localhost:5001/live/693.m3u8
-	
+  
 #EXTINF:-1 tvg-id=504 tvg-name="Zee News" tvg-logo="http://localhost:5001/jtvimage/Zee_News.png" tvg-language="Hindi" tvg-type="News" group-title="News", Zee News
 http://localhost:5001/live/504.m3u8
-	
+  
 #EXTINF:-1 tvg-id=235 tvg-name="India TV" tvg-logo="http://localhost:5001/jtvimage/India_TV.png" tvg-language="Hindi" tvg-type="News" group-title="News", India TV
 http://localhost:5001/live/235.m3u8
 
@@ -79,17 +120,27 @@ https://live.drmlive-02.workers.dev/zee/and-pictures-hd.m3u8
 
 #EXTINF:-1 tvg-id=1839 tvg-name="And Pictures" tvg-logo="http://localhost:5001/jtvimage/And_Pictures.png" tvg-language="Hindi" tvg-type="Movies" group-title="Movies", And Pictures
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andpictures1/default/andpictures1.m3u8
-	
-#EXTINF:-1 tvg-id=165 tvg-name="Zee Cinema HD" tvg-logo="http://localhost:5001/jtvimage/Zee_Cinema_HD.png" tvg-language="Hindi" tvg-type="Movies" group-title="Movies", Zee Cinema HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://live.drmlive-02.workers.dev/zee/zee-cinema-hd.m3u8
+  
+#EXTINF:-1 tvg-id="ts503" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Zee Cinema HD.png" group-title="Movies",Zee Cinema HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://tp.drmlive-01.workers.dev?id=503
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+http://192.168.1.128:8000/tataplay-main/manifest.mpd?id=503|X-Forwarded-For=59.178.74.184&Origin=https://watch.tataplay.com&Referer=https://watch.tataplay.com/
 
-#EXTINF:-1 tvg-id=484 tvg-name="Zee Cinema" tvg-logo="http://localhost:5001/jtvimage/Zee_Cinema.png" tvg-language="Hindi" tvg-type="Movies" group-title="Movies", Zee Cinema
-http://119.152.240.15:8001/play/a0bf/index.m3u8
+#EXTINF:-1 tvg-id="ts123" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Zee Cinema.png" group-title="Movies",Zee Cinema
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://tp.drmlive-01.workers.dev?id=123
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+http://192.168.1.128:8000/tataplay-main/manifest.mpd?id=123|X-Forwarded-For=59.178.74.184&Origin=https://watch.tataplay.com&Referer=https://watch.tataplay.com/
 
-#EXTINF:-1 tvg-id=488 tvg-name="Zee Action" tvg-logo="http://localhost:5001/jtvimage/Zee_Action.png" tvg-language="Hindi" tvg-type="Movies" group-title="Movies", Zee Action
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://live.drmlive-02.workers.dev/zee/zee-action.m3u8
+#EXTINF:-1 tvg-id="ts100" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Zee Action.png" group-title="Movies",Action Cinema
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://tp.drmlive-01.workers.dev?id=100
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+http://192.168.1.128:8000/tataplay-main/manifest.mpd?id=100|X-Forwarded-For=59.178.74.184&Origin=https://watch.tataplay.com&Referer=https://watch.tataplay.com/
 
 #EXTINF:-1 tvg-id=1477 tvg-name="Colors Cineplex HD" tvg-logo="http://localhost:5001/jtvimage/Color_Cineplex_HD.png" tvg-language="Hindi" tvg-type="Movies" group-title="Movies", Colors Cineplex HD
 http://localhost:5001/live/1477.m3u8
@@ -107,10 +158,10 @@ https://dai.google.com/ssai/event/Qyqz40bSQriqSuAC7R8_Fw/master.m3u8
 https://dai.google.com/ssai/event/oJ-TGgVFSgSMBUoTkauvFQ/master.m3u8
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://m3u.yuvraj49.xyz/tp/KxYS5P0mqdXY/license/key?id=245
+#KODIPROP:inputstream.adaptive.license_key=https://m3u.yuvraj49.xyz/tp/Kx1ue0QUfgmR/license/key?id=245
 #EXTINF:-1 tvg-id="ts245" tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/SGHD_Thumbnail-v2/SGHD_Thumbnail.png" group-title="Movies",STAR GOLD HD
 #EXTVLCOPT:http-user-agent=Safari/537.36
-https://m3u.yuvraj49.xyz/tp/KxYS5P0mqdXY/manifest/245.mpd|User-Agent=Safari/537.36
+https://m3u.yuvraj49.xyz/tp/Kx1ue0QUfgmR/manifest/245.mpd|User-Agent=Safari/537.36
 
 #EXTINF:-1 tvg-id=816 tvg-name="Cartoon Network Hindi" tvg-logo="http://localhost:5001/jtvimage/Cartoon_Network_Hindi.png" tvg-language="Hindi" tvg-type="Kids" group-title="Kids", Cartoon Network
 http://localhost:5001/live/816.m3u8
@@ -127,21 +178,31 @@ http://localhost:5001/live/815.m3u8
 #EXTINF:-1 tvg-id=545 tvg-name="Nick Hindi" tvg-logo="http://localhost:5001/jtvimage/Nick_Hindi.png" tvg-language="Hindi" tvg-type="Kids" group-title="Kids", Nick
 http://localhost:5001/live/545.m3u8
 
-#EXTINF:-1 tvg-id="Motu Patlu 24*7" group-title="Kids",Motu Patlu 24*7
-https://fifabd.xyz/KIDxRANAPK/play.m3u8?id=307079
-	
 #EXTINF:-1 tvg-id="1000001971" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY%20YAY.png" group-title="Kids", Sony YAY!
 https://dai.google.com/ssai/event/40H5HfwWTZadFGYkBTqagg/master.m3u8
 
+#EXTINF:-1 tvg-id="ts114" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Disney.png" group-title="Kids",Disney
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://tplay.yuvraj49.in/tp/KxrHZUD5nBEB/key.php?id=114
-#EXTINF:-1 tvg-id="ts114" tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-1356-j5tdnwmw-v1/imageContent-1356-j5tdnwmw-m1.png" group-title="Kids",Disney
-#EXTVLCOPT:http-user-agent=Safari/537.36
-http://119.156.26.155:8000/play/a05u/index.m3u8
+#KODIPROP:inputstream.adaptive.license_key=https://tp.drmlive-01.workers.dev?id=114
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+http://192.168.1.128:8000/tataplay-main/manifest.mpd?id=114|X-Forwarded-For=59.178.74.184&Origin=https://watch.tataplay.com&Referer=https://watch.tataplay.com/
 
-#EXTINF:-1 tvg-id="ts114" tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-1356-j5tdnwmw-v1/imageContent-1356-j5tdnwmw-m1.png" group-title="Kids",Disney 
-#EXTVLCOPT:http-user-agent=Safari/537.36
-https://shorturl.at/PXxv7
+#EXTINF:-1 tvg-id="ts587" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Super-Hungama-Transparent.png" group-title="Kids",Super Hungama
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://tp.drmlive-01.workers.dev?id=587
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+http://192.168.1.128:8000/tataplay-main/manifest.mpd?id=587|X-Forwarded-For=59.178.74.184&Origin=https://watch.tataplay.com&Referer=https://watch.tataplay.com/
+
+#EXTINF:-1 tvg-id="ts144" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Disney Junior.png" group-title="Kids",Disney Junior
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://tp.drmlive-01.workers.dev?id=144
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+http://192.168.1.128:8000/tataplay-main/manifest.mpd?id=144|X-Forwarded-For=59.178.74.184&Origin=https://watch.tataplay.com&Referer=https://watch.tataplay.com/
+
+
 
 </body>
 </html>
